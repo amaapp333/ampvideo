@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Example AMP Story in Next.js</title>
+        <title> Story in Next.js</title>
         <script
           async
           key="amp-story"
@@ -23,7 +23,7 @@ const Home = () => {
 
       <amp-story
         standalone=""
-        title="Stories in AMP - Hello World"
+        title="Maliek News - Hello World"
         publisher="AMP Project"
         publisher-logo-src="https://amp.dev/favicons/coast-228x228.png"
         poster-portrait-src="https://amp.dev/static/samples/img/story_dog2_portrait.jpg"
@@ -42,8 +42,10 @@ const Home = () => {
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
-            <h1>Hello World</h1>
+            <h1>Maliek News</h1>
             <p>This is an AMP Story.</p>
+
+
           </amp-story-grid-layer>
         </amp-story-page>
 
@@ -84,7 +86,7 @@ const Home = () => {
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Best walk ever!
+              Follow Us Now !
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
@@ -121,7 +123,7 @@ const Home = () => {
 
         {/* <!-- A "bookend" panel containing links to other resources will appear on the last page of your story if you include an `amp-story-bookend` that references a [bookend JSON config](/static/samples/json/bookend.json). --> */}
         <amp-story-bookend
-          src="https://amp.dev/static/samples/json/bookend.json"
+          src="/bookend.json"
           layout="nodisplay"
         />
       </amp-story>
