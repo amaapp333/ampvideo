@@ -7,24 +7,26 @@ const Home = () => {
     <>
       <Head>
 
-        <title>Story in Next.js</title>
+        <title>Stories in Next.js</title>
         <script
           async
           key="amp-story"
           custom-element="amp-story"
           src="https://cdn.ampproject.org/v0/amp-story-1.0.js"
         />
+
         <script
           async
           key="amp-video"
           custom-element="amp-video"
           src="https://cdn.ampproject.org/v0/amp-video-0.1.js"
         />
+
       </Head>
 
       <amp-story
         standalone=""
-        title="Maliek News - Tech World"
+        title="Maliek Tech World"
         publisher="Maliek News"
         publisher-logo-src=" "
         poster-portrait-src=" "
@@ -44,9 +46,7 @@ const Home = () => {
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
             <h1>Maliek News Blog</h1>
-            <p>This is an AMP Blog Story
-               This is an AMP Blog Story.</p>
-
+            <p>This is an AMP Blog Story.</p>
           </amp-story-grid-layer>
         </amp-story-page>
 
@@ -73,7 +73,7 @@ const Home = () => {
         <amp-story-page id="animation-demo">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src=""
+              src="images/top.png"
               animate-in="fly-in-top"
               width="720"
               height="1280"
@@ -81,6 +81,7 @@ const Home = () => {
               alt="Story Dog4"
             />
           </amp-story-grid-layer>
+
           <amp-story-grid-layer template="thirds">
             <h2
               animate-in="fly-in-bottom"
@@ -97,7 +98,7 @@ const Home = () => {
           <amp-story-grid-layer template="thirds">
             <amp-img
               grid-area="upper-third"
-              src="    " 
+              src="images/upper.png " 
 "
               width="560"
               height="420"
@@ -106,7 +107,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="middle-third"
-              src="    "
+              src="images/middle.png "
               width="560"
               height="420"
               layout="responsive"
@@ -114,7 +115,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="lower-third"
-              src="    "
+              src="images/third.png"
               width="560"
               height="420"
               layout="responsive"
