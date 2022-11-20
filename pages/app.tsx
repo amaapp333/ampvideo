@@ -34,7 +34,7 @@ const Home = () => {
         <amp-story-page id="page-1">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://amp.dev/static/samples/img/story_dog2.jpg"
+              src="https://www.svgrepo.com/show/212772/prisoner-war.svg"
               width="720"
               height="1280"
               layout="responsive"
@@ -73,7 +73,7 @@ const Home = () => {
         <amp-story-page id="animation-demo">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://amp.dev/static/samples/img/story_dog4.jpg"
+              src="https://www.svgrepo.com/show/279676/judge.svg"
               animate-in="fly-in-top"
               width="720"
               height="1280"
