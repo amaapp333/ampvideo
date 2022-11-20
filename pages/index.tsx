@@ -43,7 +43,7 @@ const Home = () => {
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
             <h1>Maliek News</h1>
-            <p>This is an AMP Story.</p>
+            <p>This is our News App.</p>
 
 
           </amp-story-grid-layer>
@@ -69,6 +69,7 @@ const Home = () => {
         </amp-story-page>
 
         {/* <!-- Pre-defined entry animations make it possible to create dynamic pages without videos. The length and initial delay can be customized using the `animate-in-duration` and `animate-in-delay` properties. The [animations sample](/documentation/examples/visual-effects/amp_story_animations/) shows all available animantions in action. --> */}
+       
         <amp-story-page id="animation-demo">
           <amp-story-grid-layer template="fill">
             <amp-img
@@ -86,7 +87,7 @@ const Home = () => {
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Follow Us Now !
+              Follow Me!
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
