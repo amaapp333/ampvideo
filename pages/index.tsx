@@ -5,8 +5,6 @@ export const config = { amp: true }
 const Home = () => {
   return (
     <>
-
-
      <Head>
         <title>Story By Adball Tech</title>
         <script
@@ -130,10 +128,6 @@ const Home = () => {
         />
       </amp-story>
       
-
-
-
-
     </>
   )
 }
