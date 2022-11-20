@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title> Story in Next.js</title>
+
+        <title>Story in Next.js</title>
         <script
           async
           key="amp-story"
@@ -23,18 +24,18 @@ const Home = () => {
 
       <amp-story
         standalone=""
-        title="Maliek News - Hello World"
-        publisher="AMP Project"
-        publisher-logo-src="https://amp.dev/favicons/coast-228x228.png"
-        poster-portrait-src="https://amp.dev/static/samples/img/story_dog2_portrait.jpg"
-        poster-square-src="https://amp.dev/static/samples/img/story_dog2_square.jpg"
-        poster-landscape-src="https://amp.dev/static/samples/img/story_dog2_landscape.jpg"
+        title="Maliek News - Tech World"
+        publisher="Maliek News"
+        publisher-logo-src="https://www.svgrepo.com/show/279678/prisoner-law.svg"
+        poster-portrait-src="https://www.svgrepo.com/show/212772/prisoner-war.svg"
+        poster-square-src="https://www.svgrepo.com/show/57837/prisoner.svg"
+        poster-landscape-src="https://www.svgrepo.com/show/279682/judge-law.svg"
       >
         {/* <!-- A story consists of one or more pages. Each page is declared by an `amp-story-page` element. Pages are designed by layering videos, images and text. Here we have a page that uses two layers. One layer filling the available space with an image and one text layer that shows a heading. --> */}
         <amp-story-page id="page-1">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://amp.dev/static/samples/img/story_dog2.jpg"
+              src="https://www.svgrepo.com/show/57837/prisoner.svg"
               width="720"
               height="1280"
               layout="responsive"
@@ -42,8 +43,8 @@ const Home = () => {
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
-            <h1>Maliek News</h1>
-            <p>This is an AMP Story.</p>
+            <h1>Maliek News Blog</h1>
+            <p>This is an AMP Blog Story.</p>
 
 
           </amp-story-grid-layer>
@@ -57,11 +58,11 @@ const Home = () => {
               loop=""
               width="720"
               height="960"
-              poster="https://amp.dev/static/samples/img/story_video_dog_cover.jpg"
+              poster="   "
               layout="responsive"
             >
               <source
-                src="https://amp.dev/static/samples/video/story_video_dog.mp4"
+                src="    "
                 type="video/mp4"
               />
             </amp-video>
@@ -72,12 +73,12 @@ const Home = () => {
         <amp-story-page id="animation-demo">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://amp.dev/static/samples/img/story_dog4.jpg"
+              src="https://www.svgrepo.com/show/136986/judge.svg"
               animate-in="fly-in-top"
               width="720"
               height="1280"
               layout="responsive"
-              alt="Story Dog 4"
+              alt="Story Dog4"
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
@@ -86,7 +87,7 @@ const Home = () => {
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Follow Us Now !
+              Follow!
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
@@ -96,15 +97,16 @@ const Home = () => {
           <amp-story-grid-layer template="thirds">
             <amp-img
               grid-area="upper-third"
-              src="https://amp.dev/static/samples/img/story_thirds_1.jpg"
+              src="https://www.svgrepo.com/show/83418/judge.svg 
+"
               width="560"
               height="420"
               layout="responsive"
-              alt="Story Thirds 1"
+              alt="Story Thirds"
             />
             <amp-img
               grid-area="middle-third"
-              src="https://amp.dev/static/samples/img/story_thirds_2.jpg"
+              src="https://www.svgrepo.com/show/279676/judge.svg"
               width="560"
               height="420"
               layout="responsive"
@@ -112,7 +114,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="lower-third"
-              src="https://amp.dev/static/samples/img/story_thirds_3.jpg"
+              src="https://www.svgrepo.com/show/277309/prisoner-jail.svg"
               width="560"
               height="420"
               layout="responsive"
