@@ -82,12 +82,13 @@ const Home = () => {
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
+           
             <h2
               animate-in="fly-in-bottom"
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Follow Us!
+              Follow Me!
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
@@ -95,8 +96,22 @@ const Home = () => {
         {/* <!-- Stories can use predefined layouts to style the page. Here we're using the `thirds` template. For an overview about the available layouts take a look at the [layouts sample](/documentation/examples/style-layout/amp_story_layouts/). --> */}
         <amp-story-page id="layout-demo">
           <amp-story-grid-layer template="thirds">
-            
+          <amp-img
+              src="https://www.svgrepo.com/show/57837/prisoner.svg"
+              animate-in="fly-in-top"
+              width="720"
+              height="1280"
+              layout="responsive"
+              alt="Story Dog 4"
+            />
 
+          <h2
+              animate-in="fly-in-bottom"
+              grid-area="lower-third"
+              animate-in-delay="0.4s"
+            >
+              Follow @adball.tech
+            </h2>
 
 
 
