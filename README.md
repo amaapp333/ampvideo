@@ -6,7 +6,7 @@ This example shows how to create an AMP page with `amp-story` using Next.js and 
 
 Deploy the example using [Vercel](https://www.google.co.in/amp/adball.tech/):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/amp-story&project-name=amp-story&repository-name=amp-story)
+[![Deploy with Vercel](https://vercel.com/button)](https://www.google.com/amp/adball.tech/  )
 
 ## How to use
 
