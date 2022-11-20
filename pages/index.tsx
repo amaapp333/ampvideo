@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title> Story in Next.js</title>
+        <title> Story Web in Next.js</title>
         <script
           async
           key="amp-story"
@@ -23,7 +23,7 @@ const Home = () => {
 
       <amp-story
         standalone=""
-        title="Maliek News - Hello World"
+        title="Maliek WebTools - Beast World"
         publisher="AMP Project"
         publisher-logo-src="https://amp.dev/favicons/coast-228x228.png"
         poster-portrait-src="https://amp.dev/static/samples/img/story_dog2_portrait.jpg"
@@ -42,9 +42,8 @@ const Home = () => {
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
-            <h1>Maliek News</h1>
-            <p>This is our News App.</p>
-
+            <h1>Mobile Services</h1>
+            
 
           </amp-story-grid-layer>
         </amp-story-page>
