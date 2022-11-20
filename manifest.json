@@ -1,0 +1,40 @@
+{
+  "name": "Maliek Tech",
+  "short_name": "Maliek Galant",
+  "description": "An implementation of the fire animation used on the PSX port of the game in modern JavaScript.",
+  "start_url": "/?utm_source=homescreen",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/fruit.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/water.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/fire.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot2-1920x1080.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    },
+    {
+      "src": "/assets/screenshot1-1920x1080.png",
+      "type": "image/png",
+      "sizes": "1080x1920"
+    }
+  ]
+}
