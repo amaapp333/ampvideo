@@ -12,12 +12,12 @@
   "components": [
     {
       "type": "heading",
-      "text": "Introduction"
+      "text": "Maliek News"
     },
     {
       "type": "small",
-      "title": "AMP Story Hello World",
-      "url": "/documentation/examples/introduction/stories_in_amp",
+      "title": "Welcome To My Blog Say Hello To The World",
+      "url": "/stories_in_amp",
       "image": "/favicons/android-chrome-256x256.png"
     },
     {
@@ -26,14 +26,14 @@
     },
     {
       "type": "small",
-      "title": "Animations",
-      "url": "/documentation/examples/visual-effects/amp_story_animations",
+      "title": "Documentation",
+      "url": "/documentation/",
       "image": "/favicons/android-chrome-256x256.png"
     },
     {
       "type": "small",
       "title": "Layouts",
-      "url": "/documentation/examples/style-layout/amp_story_layouts",
+      "url": "/amp_story_layouts",
       "image": "/favicons/android-chrome-256x256.png"
     },
     {
@@ -55,7 +55,7 @@
     {
       "type": "small",
       "title": "DoubleClick",
-      "url": "/documentation/examples/advertising-analytics/doubleclick_amp_story_ads",
+      "url":   "/doubleclick_amp_story_ads",
       "image": "/favicons/android-chrome-256x256.png"
     },
     {
@@ -71,7 +71,7 @@
     {
       "type": "small",
       "title": "Ken Burns",
-      "url": "/documentation/examples/visual-effects/ken_burns",
+      "url": "/visual/ken_burns",
       "image": "/favicons/android-chrome-256x256.png"
     },
     {
