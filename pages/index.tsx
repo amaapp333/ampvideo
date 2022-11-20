@@ -26,16 +26,16 @@ const Home = () => {
         standalone=""
         title="Maliek News - Tech World"
         publisher="Maliek News"
-        publisher-logo-src="https://www.svgrepo.com/show/279678/prisoner-law.svg"
-        poster-portrait-src="https://www.svgrepo.com/show/212772/prisoner-war.svg"
-        poster-square-src="https://www.svgrepo.com/show/57837/prisoner.svg"
-        poster-landscape-src="https://www.svgrepo.com/show/279682/judge-law.svg"
+        publisher-logo-src=" "
+        poster-portrait-src=" "
+        poster-square-src=" "
+        poster-landscape-src=""
       >
         {/* <!-- A story consists of one or more pages. Each page is declared by an `amp-story-page` element. Pages are designed by layering videos, images and text. Here we have a page that uses two layers. One layer filling the available space with an image and one text layer that shows a heading. --> */}
         <amp-story-page id="page-1">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://www.svgrepo.com/show/57837/prisoner.svg"
+              src="   "
               width="720"
               height="1280"
               layout="responsive"
@@ -44,8 +44,8 @@ const Home = () => {
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
             <h1>Maliek News Blog</h1>
-            <p>This is an AMP Blog Story.</p>
-
+            <p>This is an AMP Blog Story
+               This is an AMP Blog Story.</p>
 
           </amp-story-grid-layer>
         </amp-story-page>
@@ -73,7 +73,7 @@ const Home = () => {
         <amp-story-page id="animation-demo">
           <amp-story-grid-layer template="fill">
             <amp-img
-              src="https://www.svgrepo.com/show/136986/judge.svg"
+              src=""
               animate-in="fly-in-top"
               width="720"
               height="1280"
@@ -87,7 +87,7 @@ const Home = () => {
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Follow!
+              Follow Me!
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
@@ -97,7 +97,7 @@ const Home = () => {
           <amp-story-grid-layer template="thirds">
             <amp-img
               grid-area="upper-third"
-              src="https://www.svgrepo.com/show/83418/judge.svg 
+              src="    " 
 "
               width="560"
               height="420"
@@ -106,7 +106,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="middle-third"
-              src="https://www.svgrepo.com/show/279676/judge.svg"
+              src="    "
               width="560"
               height="420"
               layout="responsive"
@@ -114,7 +114,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="lower-third"
-              src="https://www.svgrepo.com/show/277309/prisoner-jail.svg"
+              src="    "
               width="560"
               height="420"
               layout="responsive"
