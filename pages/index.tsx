@@ -19,6 +19,24 @@ const Home = () => {
           custom-element="amp-video"
           src="https://cdn.ampproject.org/v0/amp-video-0.1.js"
         />
+        <script
+          async
+          key="amp-ad"
+          custom-element="amp-ad"
+          src="https://cdn.ampproject.org/v0/amp-ad-1.0.js"
+        />
+
+        <script
+           async
+           key="amp-sticky-ad"
+           custom-element="amp-sticky-ad" 
+           src="https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js">
+        />
+
+
+
+
+
       </Head>
 
       <amp-story
