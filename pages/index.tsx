@@ -61,7 +61,7 @@ const Home = () => {
               layout="responsive"
             >
               <source
-                src="https://amp.dev/static/samples/video/story_video_dog.mp4"
+                src="/video/story_video_dog.mp4"
                 type="video/mp4"
               />
             </amp-video>
@@ -87,7 +87,7 @@ const Home = () => {
               grid-area="lower-third"
               animate-in-delay="0.4s"
             >
-              Follow Me!
+              Follow !
             </h2>
           </amp-story-grid-layer>
         </amp-story-page>
@@ -113,7 +113,7 @@ const Home = () => {
             />
             <amp-img
               grid-area="lower-third"
-              src="https://amp.dev/static/samples/img/story_thirds_3.jpg"
+              src="img/story_thirds_3.jpg"
               width="560"
               height="420"
               layout="responsive"
