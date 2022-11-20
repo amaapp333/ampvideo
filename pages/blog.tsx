@@ -23,7 +23,7 @@ const Home = () => {
 
       <amp-story
         standalone=""
-        title="Maliek News - Hello World"
+        title="Maliek News - Blog World"
         publisher="AMP Project"
         publisher-logo-src="https://amp.dev/favicons/coast-228x228.png"
         poster-portrait-src="https://amp.dev/static/samples/img/story_dog2_portrait.jpg"
@@ -42,7 +42,7 @@ const Home = () => {
             />
           </amp-story-grid-layer>
           <amp-story-grid-layer template="vertical">
-            <h1>Maliek Native</h1>
+            <h1>Maliek Blog </h1>
             <p>This is our News App.</p>
 
 
